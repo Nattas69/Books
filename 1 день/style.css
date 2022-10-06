@@ -1,0 +1,86 @@
+@media (max-width: 768px) {
+    .container {
+        width: var(--somevar);
+        height: var(--somevar);
+    }
+}
+body{
+    background-color: #fcebf2;
+}
+head {
+     display: flex;
+    flex-direction: column-reverse;
+    align-items:center ;
+    justify-content: space-between;
+}
+.logo {
+height: 150px;
+}
+.hren {
+    font-size: 50px;
+    color: #ff6666;
+}
+
+.top-menu{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: space-between;
+}
+.top-menu li{
+    font-size: 18px;
+}
+.top-menu li:hover{
+    background-color: #FFCCCC;
+}
+.top-menu li:hover a{
+    color: white;
+}
+nav li {
+
+    list-style-position: inside;
+    font: 17px 'Oswald', sans-serif;
+    padding: 10px;
+}
+.active {
+    background-color: #FFCCCC;
+    color: white;
+}
+.active a{
+    color: white;
+}
+#wrapper {
+    max-width: 960px;
+    margin: auto;
+}
+figure {
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:center ;
+    justify-content: space-between;
+}
+figure img {
+    display: block;
+    border: 8px solid #fff;
+    outline: 1px solid #c9c9c9;
+}
+
+figure figcaption {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+h3, h4{
+    font-family: 'Oswald';
+    font-size: 40px;
+    text-align: center;
+    color: #CC99FF;
+    margin: 0px;
+}
+h5 {
+    font-family: 'Oswald';
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+}

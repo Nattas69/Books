@@ -1,0 +1,13 @@
+
+.hoto{
+	width: calc(100%/3);
+	transform: rotate(90deg);
+	margin: calc(100% - 5px);
+	padding: calc(100% * 2px)
+
+}
+.h{
+	font-size: calc(600 * 5% + 20px);
+	--numb: 25px;
+	padding: calc(var(--numb) * 2);
+}
